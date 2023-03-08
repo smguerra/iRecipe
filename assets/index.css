@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(./img/image-3.png);
+  background-size: cover;
+  animation: scroll-bg 10s linear infinite;
+}
+
+/* Navigation Bar */
+.bg-dark {
+  opacity: 0.9;
+}
+.text {
+  font-size: 36px;
+  color: white !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bold:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.navbar-brand:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+.like{
+  color:#DCDCDC;
+}
+
+.toggle{
+  color:#3B71CA;
+}
+
+/* Hero Section  */
+
+.jumbo-margin {
+  margin-top: 150px;
+}
+
+.hero {
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+.hero > h1{
+  font-size: 65px;
+
+}
+
+.hero p {
+  font-weight: 500;
+  word-wrap: break-word;
+  max-width: 40%;
+  color: rgb(0, 0, 0);
+}
+
+
+h3 {
+  color: rgb(252, 252, 252);
+  font-weight: 700;
+}
+/* card styles */
+h5 {
+  font-size: 28px;
+}
+.recipeGen {
+  display: flex;
+  justify-content: center;
+}
+/* style for like button clicked */
+.like-clicked{
+  color:#3B71CA;
+}
+/* original color for like button */
+.like{
+  border: none;
+  color: #332D2D;
+}
+/* class to hide card until search button clicked */
+.hide {
+  display: none !important;
+}
+
+
+/* search styles */
+.SearchContainer {
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 5px;
+  max-width: auto;
+  max-height: auto;
+  display: inline-block;
+  align-content: center;
+}
+.card-body {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* footer */
+
+.company-name {
+  font-size: 25px;
+}
+
+a.hover-effect:hover {
+  color: rgb(246, 246, 3);
+}
+
+.fab.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fab.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fab.fa-instagram:hover {
+  color: #e1306c;
+}
+
+.text-white {
+  color: white !important;
+}
+
+/* testimonials */
+.testimonials {
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testimonial {
+  width: 25%;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.testimonial p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.testimonial h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
